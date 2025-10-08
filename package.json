@@ -1,0 +1,17 @@
+{
+  "name": "m3u8-server",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "colors": "^1.4.0",
+    "axios": "^1.0.0",
+    "http-proxy": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
